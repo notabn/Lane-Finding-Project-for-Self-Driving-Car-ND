@@ -16,7 +16,7 @@ The first step in the pipeline is to convert the image to grayscale, as shown be
 [//]: # (Image References)
 
 
-![image1]: (./docu_images/gray.png) "Grayscale"
+![Screenshot]: (/docu_images/gray.png?raw=true) "Grayscale"
 
 -
 The gray image in than smoothen with a Gaussian Filter to remove noise. The Canny Detector is used to detect edges in the image. The resulting image is 
