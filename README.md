@@ -1,12 +1,5 @@
 #**Finding Lane Lines on the Road** 
 
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
-
-**Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -25,7 +18,7 @@ My pipeline consisted of the following steps.  First the image was converted gra
 [//]: # (Image References)
 
 
-[image1]: ./docu_images/gray.jpg "Grayscale"
+[image1]: #(./docu_images/gray.jpg) "Grayscale"
 
 -
 and smoothen with a Gaussian Filter to remove noise. To detect edges in the image, the Canny Detector was used. The result is shown in the following figure
