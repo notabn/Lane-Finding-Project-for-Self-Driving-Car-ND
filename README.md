@@ -12,14 +12,14 @@ The goals / steps of this project are the following:
 
 ###1. Pipeline for lane detection.
 
-My pipeline consisted of the following steps.  First the image was converted grayscale as shown bellow
+The first step in the pipeline is to convert the image to grayscale, as shown bellow
 [//]: # (Image References)
 
 
 ![image1]: (./docu_images/gray.png) "Grayscale"
 
 -
-and smoothen with a Gaussian Filter to remove noise. To detect edges in the image, the Canny Detector was used. The result is shown in the following figure
+The gray image in than smoothen with a Gaussian Filter to remove noise. The Canny Detector is used to detect edges in the image. The resulting image is 
 
 ![image2]: (/docu_images/edges.png)“Edges”
 
@@ -41,7 +41,6 @@ For the left and the right lane, lines are then draw between the minimum and max
 
 ###2. Potential shortcomings with your current pipeline
 
-
 One potential shortcoming is the fixed region of interest. If an object would appear in our region of interest, its edges would be detected and can further be interpreted as a line.
 
 Another shortcoming could be the intensity of the light and how the light is reflect by the road surfaces. There is a chance that shadows are on the lane and detected as object. Another problem can be the lack of contrast between the lane markup and the road surface and so no edges are detected.
@@ -49,7 +48,7 @@ Another shortcoming could be the intensity of the light and how the light is ref
 Another shortcoming for this method is that is working only for a straight road and has difficulties approximating curves. 
 
 
-###3. Possible improvements to your pipeline
+###3. Possible improvements to the pipeline
 
 A possible improvement would be to normalise the color space to reduce the effects of light. Another possibility is to improve edge detection by using adaptive thresholds based on the image's characteristics. 
 
