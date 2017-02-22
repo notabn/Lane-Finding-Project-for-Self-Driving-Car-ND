@@ -21,7 +21,7 @@ The first step in the pipeline is to convert the image to grayscale, as shown be
 -
 The gray image in than smoothen with a Gaussian Filter to remove noise. The Canny Detector is used to detect edges in the image. The resulting image is 
 
-![image2]: (/docu_images/edges.png)“Edges”
+![image2]: (./docu_images/edges.png)“Edges”
 
 A region o interests was defined  and the region outside interest is masked as shown below :
 
